@@ -129,55 +129,63 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "Machine Learning Engineer",
+    company_name: "Dcube Tech",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "August 2024 - Ongoing",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed an innovative GAN-based audio separation system, improving signal-to-noise ratio by 40%.",
+      "Implemented real-time audio processing on edge devices using PyTorch and TensorFlow.",
+      "Integrated audio separation technology into flagship product, expanding market potential by 25%.",
+      "Contributed to two pending patents in machine learning for audio enhancement.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
+    title: "Research Assistant",
+    company_name: "OPTIMAL LAB",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "May 2023 - May 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Collaborated on Fish Biomass Estimation project using advanced deep learning techniques.",
+      "Deployed 3D CNNs, LSTMs, GNNs, SAM, and DepthAnything for underwater image segmentation.",
+      "Optimized YOLOv8, GMMs, and Naive Bayes models for fish detection and movement analysis.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
+    title: "Research Intern",
+    company_name: "TUKL Research Lab",
     icon: shopify,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "May 2021 - Aug 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Implemented 20+ SOTA techniques in NLP, Deep Learning, and Reinforcement Learning.",
+      "Developed Splerge model for table extraction with 95.9% precision.",
+      "Created AlexNet+MLP model for EEG anomaly detection with 89% accuracy.",
+      "Automated fish annotation using YOLOv5 and Roboflow for underwater datasets.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
+    title: "Freelance Content Writer",
+    company_name: "eXputer",
     icon: meta,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Oct 2022 - Jan 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Crafted SEO-optimized articles on gaming platforms and industry trends.",
+      "Significantly increased website impressions through strategic content creation.",
+    ],
+  },
+  {
+    title: "Intern",
+    company_name: "World Wildlife Fund",
+    icon: shopify,
+    iconBg: "#E6DEDD",
+    date: "May 2021 - June 2021",
+    points: [
+      "Led a team of 10 students in COVID-19 awareness campaign.",
+      "Executed social media campaign on COVID-19 risks and water shortage.",
     ],
   },
 ];
@@ -211,68 +219,92 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Fish Biomass Estimation In Underwater Unconstrained Environment",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Developed an advanced system for fish detection and biomass estimation in underwater videos. Implemented and optimized multiple deep learning models, achieving 98% accuracy with YOLOv8. Integrated GMM for enhanced tracking, and utilized state-of-the-art depth estimation techniques for precise biomass calculation. Explored image enhancement methods and contributed to a research paper in marine sciences.",
     tags: [
       {
-        name: "react",
+        name: "Computer Vision",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Deep Learning",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "YOLOv8",
         color: "pink-text-gradient",
       },
+      {
+        name: "Depth Estimation",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Marine Science",
+        color: "blue-text-gradient",
+      },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: carrent, // You may want to replace this with an appropriate image
+    source_code_link: "https://github.com/", // Replace with actual link if available
   },
   {
-    name: "Job IT",
+    name: "EmoSenseVision",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Engineered a real-time facial sentiment analysis system using a CNN model inspired by VGGnet. Achieved 70% accuracy through advanced regularization techniques including Dropout, L1, and L2. Implemented live inference capabilities for real-time emotion prediction from webcam feeds, demonstrating practical applications in human-computer interaction.",
     tags: [
       {
-        name: "react",
+        name: "Computer Vision",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Deep Learning",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "CNN",
         color: "pink-text-gradient",
       },
+      {
+        name: "Sentiment Analysis",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Real-time Processing",
+        color: "blue-text-gradient",
+      },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: jobit, // You may want to replace this with an appropriate image
+    source_code_link: "https://github.com/", // Replace with actual link if available
   },
   {
-    name: "Trip Guide",
+    name: "Audio Steganography Techniques",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Conducted a comprehensive study and implementation of three audio steganography methods: Phase Encoding, Parity Encoding, and Least Significant Bit (LSB) Encoding. Performed a detailed comparative analysis of these techniques, evaluating their data hiding capacity, perceptual transparency, and robustness against cyber attacks, providing valuable insights for practical applications in information security.",
     tags: [
       {
-        name: "nextjs",
+        name: "Audio Processing",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Information Security",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Steganography",
         color: "pink-text-gradient",
       },
+      {
+        name: "Signal Processing",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Cryptography",
+        color: "blue-text-gradient",
+      },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: tripguide, // You may want to replace this with an appropriate image
+    source_code_link: "https://github.com/", // Replace with actual link if available
   },
 ];
-
+/* idhar neechy sy testimonials hataya hai*/
 export { services, technologies, experiences, testimonials, projects };

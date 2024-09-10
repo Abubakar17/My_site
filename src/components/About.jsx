@@ -47,11 +47,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        Greetings, fellow humans and potential AI overlords! I'm a Machine Learning Engineer with a knack for turning coffee into code and complex problems into elegant solutions. When I'm not training neural networks to recognize cats (or plotting world domination), I'm diving deep into the realms of generative AI. My superpower? Implementing state-of-the-art techniques like GANs, CNNs, and transformers faster than you can say "artificial intelligence." With a passion for coding that rivals my love for pizza, I've tackled everything from sentiment analysis to audio enhancement. I combine my technical wizardry with leadership skills so smooth, I could convince a chatbot to quit its job. 
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
