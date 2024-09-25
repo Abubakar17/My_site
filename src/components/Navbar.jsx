@@ -1,5 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import githubIcon from "../assets/github.png";
+import yahooIcon from "../assets/mail.png";
+import linkedinIcon from "../assets/linkedin.png";
 
 import { styles } from "../styles";
 import { navLinks } from "../constants";
@@ -45,7 +48,7 @@ const Navbar = () => {
           {/* <img src={logo} alt='logo' className='w-9 h-9 object-contain' /> */}
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
             Syed Muhammad Abubakar &nbsp;
-            <span className='sm:block hidden'> | Machine Learning Engineer</span>
+            <span className='sm:block hidden'> | ML Engineer</span>
           </p>
         </Link>
 
@@ -61,7 +64,27 @@ const Navbar = () => {
               <a href={`#${nav.id}`}>{nav.title}</a>
             </li>
           ))}
+
+          {/* Add the CV link here */}
+          <li
+            className={`hover:text-white text-[18px] font-medium cursor-pointer text-secondary`}
+          >
+            <a href="https://drive.google.com/file/d/1LVfT0Qk5be2vHoke9FzjBQVWHJE88DGa/view?usp=sharing" download="CV_Syed_Muhammad_Abubakar.pdf">CV</a>
+          </li>
         </ul>
+
+        {/* Social Icons */}
+        <div className="hidden sm:flex items-center gap-4">
+          <a href="https://github.com/Abubakar17" target="_blank" rel="noopener noreferrer">
+            <img src={githubIcon} alt="GitHub" className="w-6 h-6 object-contain" />
+          </a>
+          <a href="mailto:syedabubakar03@yahoo.com" target="_blank" rel="noopener noreferrer">
+            <img src={yahooIcon} alt="Yahoo" className="w-6 h-6 object-contain" />
+          </a>
+          <a href="https://www.linkedin.com/in/s-m-abubakar/" target="_blank" rel="noopener noreferrer">
+            <img src={linkedinIcon} alt="LinkedIn" className="w-6 h-6 object-contain" />
+          </a>
+        </div>
 
         <div className='sm:hidden flex flex-1 justify-end items-center'>
           <img
@@ -91,7 +114,26 @@ const Navbar = () => {
                   <a href={`#${nav.id}`}>{nav.title}</a>
                 </li>
               ))}
+
+              {/* Add the CV link here for mobile */}
+              <li
+                className={`font-poppins font-medium cursor-pointer text-[16px] text-secondary`}
+              >
+                <a href="https://drive.google.com/file/d/1LVfT0Qk5be2vHoke9FzjBQVWHJE88DGa/view?usp=sharing" download="CV_Syed_Muhammad_Abubakar.pdf">CV</a>
+              </li>
             </ul>
+            {/* Social Icons for Mobile */}
+            <div className="flex items-center gap-4 mt-4">
+              <a href="https://github.com/Abubakar17" target="_blank" rel="noopener noreferrer">
+                <img src={githubIcon} alt="GitHub" className="w-6 h-6 object-contain" />
+              </a>
+              <a href="https://www.yahoo.com/syedabubakar03@yahoo.com" target="_blank" rel="noopener noreferrer">
+                <img src={yahooIcon} alt="Yahoo" className="w-6 h-6 object-contain" />
+              </a>
+              <a href="https://www.linkedin.com/in/s-m-abubakar/" target="_blank" rel="noopener noreferrer">
+                <img src={linkedinIcon} alt="LinkedIn" className="w-6 h-6 object-contain" />
+              </a>
+            </div>
           </div>
         </div>
       </div>

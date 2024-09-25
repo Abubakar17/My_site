@@ -47,7 +47,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        Greetings, fellow humans and potential AI overlords! I'm a Machine Learning Engineer with a knack for turning coffee into code and complex problems into elegant solutions. When I'm not training neural networks to recognize cats (or plotting world domination), I'm diving deep into the realms of generative AI. My superpower? Implementing state-of-the-art techniques like GANs, CNNs, and transformers faster than you can say "artificial intelligence." With a passion for coding that rivals my love for pizza, I've tackled everything from sentiment analysis to audio enhancement. I combine my technical wizardry with leadership skills so smooth, I could convince a chatbot to quit its job. 
+        Hey there! I'm a Machine Learning Engineer who turns caffeine into code and real-world challenges into clever solutions. Whether I'm training neural networks to spot cats or exploring the latest in generative AI, I'm always knee-deep in tech. I’ve worked on all sorts of projects, from teaching machines how to understand emotions in text to making audio sound crisper and clearer. I love pushing the boundaries with cutting-edge tools like GANs, CNNs, and transformers—and yes, I’ve got a serious pizza addiction to fuel it all. Alongside the coding, I like to think my leadership skills are smooth enough to convince even a chatbot to take a vacation. 
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

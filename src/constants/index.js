@@ -1,28 +1,37 @@
-import {
-  mobile,
+import { 
+  logo,
   backend,
   creator,
+  mobile,
   web,
-  javascript,
-  typescript,
-  html,
-  css,
-  reactjs,
-  redux,
-  tailwind,
-  nodejs,
-  mongodb,
-  git,
-  figma,
+  github,
+  menu,
+  close,
+  c,
+  cpp,
+  pytorch,
+  scikit,
   docker,
+  langchain,
+  matlab,
+  matplotlib,
+  mlflow,
+  nlp,
+  numpy,
+  opencv,
+  overleaf,
+  python,
+  tf,
+  roboflow,
+  yolo,
+  wildlife,
   meta,
+  shopify,
   starbucks,
   tesla,
-  shopify,
   carrent,
   jobit,
-  tripguide,
-  threejs,
+  tripguide
 } from "../assets";
 
 export const navLinks = [
@@ -38,6 +47,10 @@ export const navLinks = [
     id: "contact",
     title: "Contact",
   },
+  {
+    id: "projects",
+    title: "Projects",
+  }
 ];
 
 const services = [
@@ -58,74 +71,73 @@ const services = [
     icon: creator,
   },
 ];
-
 const technologies = [
   {
     name: "Python",
-    icon: html,
+    icon: python,
   },
   {
     name: "Pytorch",
-    icon: css,
+    icon: pytorch,
   },
   {
     name: "Tensorflow",
-    icon: javascript,
+    icon: tf,
   },
   {
-    name: "Keras",
-    icon: typescript,
+    name: "C",
+    icon: c,
   },
   {
-    name: "Pandas",
-    icon: reactjs,
-  },
-  {
-    name: "Numpy",
-    icon: redux,
+    name: "C++",
+    icon: cpp,
   },
   {
     name: "Scikit-learn",
-    icon: tailwind,
+    icon: scikit,
   },
   {
     name: "Matplotlib",
-    icon: nodejs,
+    icon: matplotlib,
   },
   {
-    name: "Seaborn",
-    icon: mongodb,
-  },
-  {
-    name: "librosa",
-    icon: threejs,
-  },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
+    name: "Docker",
     icon: docker,
   },
   {
     name: "OpenCV",
-    icon: docker,
+    icon: opencv,
+  },
+  {
+    name: "Matlab",
+    icon: matlab,
   },
   {
     name: "MLflow",
-    icon: docker,
+    icon: mlflow,
   },
   {
-    name: "Google Colab",
-    icon: docker,
+    name: "NLP",
+    icon: nlp,
+  },
+  {
+    name: "NumPy",
+    icon: numpy,
+  },
+  {
+    name: "Overleaf",
+    icon: overleaf,
+  },
+  {
+    name: "Roboflow",
+    icon: roboflow,
+  },
+  {
+    name: "YOLO",
+    icon: yolo,
   }
-
 ];
+
 
 const experiences = [
   {
@@ -180,7 +192,7 @@ const experiences = [
   {
     title: "Intern",
     company_name: "World Wildlife Fund",
-    icon: shopify,
+    icon: wildlife,
     iconBg: "#E6DEDD",
     date: "May 2021 - June 2021",
     points: [
@@ -245,7 +257,7 @@ const projects = [
       },
     ],
     image: carrent, // You may want to replace this with an appropriate image
-    source_code_link: "https://github.com/", // Replace with actual link if available
+    source_code_link: "https://github.com/Abubakar17/FYP-reports---", // Replace with actual link if available
   },
   {
     name: "EmoSenseVision",
@@ -274,7 +286,7 @@ const projects = [
       },
     ],
     image: jobit, // You may want to replace this with an appropriate image
-    source_code_link: "https://github.com/", // Replace with actual link if available
+    source_code_link: "https://github.com/Abubakar17/EmoSenseVision", // Replace with actual link if available
   },
   {
     name: "Audio Steganography Techniques",
@@ -303,8 +315,7 @@ const projects = [
       },
     ],
     image: tripguide, // You may want to replace this with an appropriate image
-    source_code_link: "https://github.com/", // Replace with actual link if available
+    source_code_link: "https://github.com/Abubakar17/Audio-Stag-DSP", // Replace with actual link if available
   },
 ];
-/* idhar neechy sy testimonials hataya hai*/
 export { services, technologies, experiences, testimonials, projects };
