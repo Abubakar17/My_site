@@ -1,6 +1,6 @@
 {
 
-  "name": "My_site",
+  "name": "my_site",
 
   "private": true,
 
@@ -14,7 +14,7 @@
 
     "predeploy": "npm run build",
 
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
 
     "dev": "vite",
 
