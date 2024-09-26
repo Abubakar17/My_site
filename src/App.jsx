@@ -4,7 +4,7 @@ import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, Stars
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <div className='relative z-0 bg-primary'>
         <div className='bg-hero-pattern bg-cover bg-no-repeat bg-center'>
           <Navbar />
@@ -15,8 +15,8 @@ const App = () => {
         <Tech />
         <Works />
         <div className='relative z-0'>
-          {<Contact /> }
-          {<StarsCanvas /> }
+          <Contact />
+          <StarsCanvas />
         </div>
       </div>
     </BrowserRouter>
