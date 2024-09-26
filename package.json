@@ -19,9 +19,8 @@
     "dev": "vite",
 
     "build": "vite build",
-
     "preview": "vite preview",
-    "install": "npm install --legacy-peer-deps"
+    "install": "npm install --force"
 
   },
 
