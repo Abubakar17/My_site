@@ -20,7 +20,8 @@
 
     "build": "vite build",
 
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "install": "npm install --legacy-peer-deps"
 
   },
 
